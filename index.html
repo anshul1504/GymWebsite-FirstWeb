@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Anshul Fitness</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body{
+        margin:0px;
+        padding:0px;
+        background-image:url('image/4784.jpg');
+        background-repeat:no-repeat;
+        background-size:100%;
+        background-color;
+        font-family:cursive;
+        
+        
+        }
+        .left{
+            position:absolute;
+            
+            display:inline-block;
+            left:60px;
+            top:15px;
+            color:white;
+            font-family:cursive;
+        }
+        .left img{
+            filter:invert(100%);
+            width:96px;
+            
+        }
+        div{
+            display:block;
+            font-family:cursive;
+            
+        }
+        .left div{
+            text-align:center;
+            font-size:12px;
+            font-family:cursive;
+            margin-top:-20px;
+            margin-left:-21px;
+        }
+        .mid{
+            display:block;
+            width:36%;
+            margin:5px auto;
+            
+            font-size:20px;
+            font-family:cursive;
+        }
+        .right{
+            position:absolute;
+            right:34px;
+            
+            
+            display:inline-block;
+            
+            top:15px;
+            font-family:cursive;
+        }
+        .navbar{
+            display:inline-block;
+            font-family:cursive;
+        }
+        .navbar li{
+            display:inline-block;
+            font-size:20px;
+            font-family:cursive;
+        }
+        .navbar li a{
+            color:white;
+            text-decoration:none;
+            padding:0px 10px;
+            font-family:cursive;
+        }
+        .navbar li a:hover,.navbar li a.active{
+            color:grey;
+            text-decoration:underline;
+            font-family:cursive;
+            
+        }
+        .btn{
+            margin:0px 9px;
+            background:black;
+            color:white;
+            padding:4px 14px;
+            border-radius:10px;
+            font-size:15px;
+            cursor:pointer;
+            font-family:cursive;
+        }
+        
+        .btn:hover{
+            margin:0px 9px;
+            background:rgb(31,30,30);)
+            color:white;
+            padding:4px 14px;
+            border-radius:10px;
+            font-size:15px;
+            cursor:pointer;
+            font-family:cursive;
+        }
+        .container{
+            background:rgba(0,0,0,0.5);
+            
+            margin:125px 102px;
+            padding:0px 75px;
+            width:30%;
+            height:370px;
+            border-radius:25px;
+            color:white;
+            text-align:center;
+            font-family:cursive;
+            
+            }
+        .form-group input{
+            text-align:center;
+            display:block;
+            width:414px;
+            padding:6px;
+            border:2px solid rgba(0,0,0,0.5);
+            margin:10px auto;
+            font-size:21px;
+            border-radius:8px;
+            font-family:cursive;
+        } 
+        .btno{
+            display:block;
+            width:80%;
+            height:40px;
+            margin:12px auto;
+            text-align:center;
+            border-radius:8px;
+            background:black;
+            color:white;
+            font-size:15px;
+            cursor:pointer;
+            font-family:cursive;
+        }  
+        .btno:hover{
+            
+            background:rgb(31,30,30);)
+            color:white;
+            padding:4px 14px;
+            border-radius:10px;
+            font-size:15px;
+            cursor:pointer; 
+    </style>
+</head>
+<body>
+    <header class="header">
+        <!--left box fo logo-->
+        <div class="left">
+            <img src="image/logo.png">
+            <div><h2>Fitness Club</h2></div>
+
+        </div>
+        <!--mid box for navbar-->
+        <div class="mid">
+            <ul class="navbar">
+                <li href="" class="active"><a>Home</a></li>
+                <li href=""><a>About Us</a></li>
+                <li href=""><a>Fitness Calculator</a></li>
+                <li href=""><a>Contact Us</a></li>
+            
+            </ul>
+
+        </div>
+        <!--right box for button-->
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h2>Join The Best Gym Of Indore </h2>
+        <form>
+            <div class="form-group">
+                <input type="text" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter your Locality">
+            </div>
+            <button class="btno">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
